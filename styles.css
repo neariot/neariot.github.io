@@ -158,16 +158,7 @@ body::before {
 .hero-panel {
   display: grid;
   gap: 1rem;
-  justify-items: center;
-}
-
-.avatar {
-  width: min(100%, 320px);
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 32px;
-  box-shadow: var(--shadow);
-  border: 10px solid rgba(255, 252, 248, 0.72);
+  align-content: center;
 }
 
 .quote-card,
@@ -181,9 +172,9 @@ body::before {
 }
 
 .quote-card {
-  width: min(100%, 320px);
-  padding: 1.25rem 1.35rem;
-  border-radius: 24px;
+  width: min(100%, 360px);
+  padding: 1.8rem;
+  border-radius: 28px;
   background: linear-gradient(180deg, rgba(255, 252, 248, 0.92), rgba(245, 236, 225, 0.86));
 }
 
@@ -406,10 +397,5 @@ body::before {
   .project-card,
   .quote-card {
     border-radius: 20px;
-  }
-
-  .avatar {
-    border-radius: 24px;
-    border-width: 8px;
   }
 }
